@@ -55,22 +55,7 @@ body {
     line-height: 1.6;
 }
 
-/* ===== PROMO BANNER ===== */
-.promo-banner {
-    background: var(--primary);
-    color: var(--white);
-    text-align: center;
-    padding: 0.6rem 1rem;
-    font-size: 0.85rem;
-    font-weight: 500;
-    letter-spacing: 0.5px;
-}
 
-.promo-banner a {
-    color: var(--gold-accent);
-    text-decoration: underline;
-    margin-left: 0.5rem;
-}
 
 /* ===== NAVIGATION ===== */
 .navbar {
@@ -125,26 +110,7 @@ body {
     color: var(--primary);
 }
 
-/* Cart Icon */
-.cart-icon {
-    width: 24px;
-    height: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.cart-icon svg {
-    width: 22px;
-    height: 22px;
-    stroke: var(--dark);
-    fill: none;
-    transition: var(--transition-normal);
-}
-
-.cart-icon:hover svg {
-    stroke: var(--primary);
-}
 
 /* ===== HERO SECTION ===== */
 .hero {
@@ -269,10 +235,7 @@ body {
     flex-shrink: 0;
 }
 
-/* Hide the old foreground image container */
-.hero-images {
-    display: none;
-}
+
 
 
 
@@ -643,10 +606,7 @@ body {
         gap: 2rem;
     }
 
-    .hero-images {
-        height: 400px;
-        order: -1;
-    }
+
 
     .features-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -717,10 +677,6 @@ body {
     .hamburger.active span:nth-child(3) {
         transform: rotate(-45deg) translate(7px, -6px);
     }
-
-    .social-links {
-        display: none;
-    }
 }
 
 @media (max-width: 768px) {
@@ -729,26 +685,17 @@ body {
         min-height: auto;
     }
 
-    .hero-images {
-        height: auto;
-    }
 
-    .hero-img-main {
-        max-width: 100%;
-        max-height: 400px;
-    }
 
-    .floating-badge {
-        display: none;
-    }
+
+
+
 
     .features-grid {
         grid-template-columns: 1fr;
     }
 
-    .testimonial-card {
-        padding: 1.5rem;
-    }
+
 
     .cta-section {
         padding: 3rem 5%;
@@ -760,13 +707,9 @@ body {
         font-size: 2.5rem;
     }
 
-    .hero-images {
-        height: auto;
-    }
 
-    .hero-img-main {
-        max-height: 300px;
-    }
+
+
 
     .section-title {
         font-size: 1.8rem;
@@ -777,10 +720,7 @@ body {
         font-size: 0.85rem;
     }
 
-    .promo-banner {
-        font-size: 0.75rem;
-        padding: 0.5rem;
-    }
+
 }
 
 
